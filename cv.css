@@ -1,0 +1,513 @@
+@charset "utf-8";
+body{
+	background-color:#FFBF65;
+    display: block;
+    margin-top: -4mm;
+    margin-bottom: 1mm;
+	}
+
+    @font-face{
+        font-family:"Font1";
+        src:url("./CV/PTSansNarrow-Regular.ttf")
+    }
+#a4Size{
+    width: 297mm;
+    height: 420mm;
+    background-color: white;
+    position: static;
+    margin-left: auto;
+    margin-right: auto;
+    z-index: 1;
+}
+
+#Heading{
+    width: 284mm;
+    height: 100mm;
+    background-color:rgb(44, 43, 43);
+    position: absolute;
+    margin: 25px;
+    z-index: 2;
+    color: white;
+    text-align: center;
+    font-size: 35px;
+    font-family: "Font1";
+}
+
+#headingText{
+    position: absolute;
+    width: 200mm;
+    height: 30mm;
+    margin-left: 45mm;
+    top: 10px;
+    font-size: 80px;
+    letter-spacing: 25px;
+    word-spacing: 20px;
+    text-align: center;
+    text-indent: -40px;
+}
+
+#headingTable{
+    position: absolute;
+    width: 271mm;
+    height: 60mm;
+    border-color: aliceblue;
+    margin: 25px;
+    margin-top: 0px;
+    font-size: 25px ;
+}
+
+#divider1{
+    position: absolute;
+    left: 95mm;
+    width: 1px;
+    height: 30mm;
+    top: 55mm;
+    border-style: solid;
+    background-color: white;
+}
+
+#divider2{
+    position: absolute;
+    left: 195mm;
+    width: 1px;
+    height: 30mm;
+    top: 55mm;
+    border-style: solid;
+    background-color: white;
+}
+#pic1{
+    position: absolute;
+    background-image: url("../TC_CV/CV/Location.png");
+    background-position: center;
+    background-size:cover;
+    height: 15mm;
+    width: 15mm;
+    z-index: 4;
+    top: 60mm;
+    left: 40mm;
+}
+#textTable1{
+    position: absolute;
+    height: 15mm;
+    width: 70mm;
+    top: 50mm;
+    left: 5mm;
+}
+#pic2{
+    position: absolute;
+    background-image: url("../TC_CV/CV/Phone.png");
+    background-position: center;
+    background-size:cover;
+    height: 15mm;
+    width: 15mm;
+    z-index: 4;
+    top: 60mm;
+    left: 138mm;
+}
+#textTable2{
+    position: absolute;
+    height: 15mm;
+    width: 70mm;
+    top: 50mm;
+    left: 102mm;
+}
+#pic3{
+    position: absolute;
+    background-image: url("../TC_CV/CV/Email.png");
+    background-position: center;
+    background-size:cover;
+    height: 15mm;
+    width: 15mm;
+    z-index: 4;
+    top: 60mm;
+    left: 230mm;
+}
+#textTable3{
+    position: absolute;
+    height: 15mm;
+    width: 70mm;
+    top: 50mm;
+    left: 197mm;
+}
+
+#firstGraph{
+    position: relative;
+    width: 260mm;
+    height: 20mm;
+    margin-left: 20mm;
+    top: 112mm;
+    font-family: "Font1";
+    text-align: center;
+    font-size: 18px;
+}
+#lineMain1st{
+    position: absolute;
+    height: 0.001mm;
+    width: 258mm;
+    top: 135mm;
+    margin-left: 20mm;
+    background-color: rgb(44, 43, 43);
+}
+#lineMain2nd{
+    position: absolute;
+    height: 240mm;
+    width: 0.001mm;
+    top: 135mm;
+    margin-left: 120mm;
+    background-color: rgb(44, 43, 43);
+}
+#skills{
+    position: relative;
+    height: 15mm;
+    width: 90mm;
+    top: 118mm;
+    left: 20mm;
+    font-family: "Font1";
+    font-size: 32px;
+    text-align: center;
+    letter-spacing: 5px;
+}
+#lineUnderSkill{
+    position: relative;
+    height: 0.001mm;
+    width: 90mm;
+    margin-left: 20mm;
+    top: 110mm;
+    background-color: rgb(44, 43, 43);
+}
+#skillsDetail{
+    position: relative;
+    height: 15mm;
+    width: 90mm;
+    top: 110mm;
+    margin-left: 20mm;
+    font-family: "Font1";
+    font-size: 18px;
+}
+#circle1{
+    position:absolute;
+    background-color: rgb(44, 43, 43);
+    border-radius: 5mm;
+    height: 8mm;
+    width: 8mm;
+    margin-top: -5px;
+    z-index: 5;}
+#circle2{
+    position: absolute;
+    background-color: rgb(44, 43, 43);
+    border-radius: 5mm;
+    height: 8mm;
+    width: 8mm;
+    margin-top: -5px;
+    z-index: 5;
+    left: 13mm;}
+#circle3{
+    position: absolute;
+    background-color: rgb(44, 43, 43);
+    border-radius: 5mm;
+    height: 8mm;
+    width: 8mm;
+    margin-top: -5px;
+    z-index: 5;
+    left: 26mm;}
+#circle4{
+    position: absolute;
+    background-color: rgb(44, 43, 43);
+    border-radius: 5mm;
+    height: 8mm;
+    width: 8mm;
+    margin-top: -5px;
+    z-index: 5;
+    left: 39mm;}
+#circle5{
+    position: absolute;
+    background-color: rgb(44, 43, 43);
+    border-radius: 5mm;
+    height: 8mm;
+    width: 8mm;
+    margin-top: -5px;
+    z-index: 5;
+    left: 52mm;}
+#circle6{
+    position: absolute;
+    background-color: rgb(44, 43, 43);
+    border-radius: 5mm;
+    height: 8mm;
+    width: 8mm;
+    margin-top: -5px;
+    z-index: 5;
+    left: 65mm;}
+#circle7{
+    position: absolute;
+    background-color: rgb(44, 43, 43);
+    border-radius: 5mm;
+    height: 8mm;
+    width: 8mm;
+    margin-top: -5px;
+    z-index: 5;}
+#circle8{
+    position: absolute;
+    background-color: rgb(44, 43, 43);
+    border-radius: 5mm;
+    height: 8mm;
+    width: 8mm;
+    margin-top: -5px;
+    z-index: 5;
+    left: 13mm;}
+#circle9{
+    position: absolute;
+    background-color: rgb(44, 43, 43);
+    border-radius: 5mm;
+    height: 8mm;
+    width: 8mm;
+    margin-top: -5px;
+    z-index: 5;
+    left: 26mm;}
+#circle10{
+    position: absolute;
+    background-color: rgb(44, 43, 43);
+    border-radius: 5mm;
+    height: 8mm;
+    width: 8mm;
+    margin-top: -5px;
+    z-index: 5;
+    left: 39mm;}
+#circle11{
+    position: absolute;
+    background-color: rgb(44, 43, 43);
+    border-radius: 5mm;
+    height: 8mm;
+    width: 8mm;
+    margin-top: -5px;
+    z-index: 5;
+    left: 52mm;
+    opacity: 30%;}
+#circle12{
+    position: absolute;
+    background-color: rgb(44, 43, 43);
+    border-radius: 5mm;
+    height: 8mm;
+    width: 8mm;
+    margin-top: -5px;
+    z-index: 5;
+    left: 65mm;
+    opacity: 30%;}
+#circle13{
+    position: absolute;
+    background-color: rgb(44, 43, 43);
+    border-radius: 5mm;
+    height: 8mm;
+    width: 8mm;
+    margin-top: -5px;
+    z-index: 5;}
+#circle14{
+    position: absolute;
+    background-color: rgb(44, 43, 43);
+    border-radius: 5mm;
+    height: 8mm;
+    width: 8mm;
+    margin-top: -5px;
+    z-index: 5;
+    left: 13mm;}
+#circle15{
+    position: absolute;
+    background-color: rgb(44, 43, 43);
+    border-radius: 5mm;
+    height: 8mm;
+    width: 8mm;
+    margin-top: -5px;
+    z-index: 5;
+    left: 26mm;}
+#circle16{
+    position: absolute;
+    background-color: rgb(44, 43, 43);
+    border-radius: 5mm;
+    height: 8mm;
+    width: 8mm;
+    margin-top: -5px;
+    z-index: 5;
+    left: 39mm;}
+#circle17{
+    position: absolute;
+    background-color: rgb(44, 43, 43);
+    border-radius: 5mm;
+    height: 8mm;
+    width: 8mm;
+    margin-top: -5px;
+    z-index: 5;
+    left: 52mm;}
+#circle18{
+    position: absolute;
+    background-color: rgb(44, 43, 43);
+    border-radius: 5mm;
+    height: 8mm;
+    width: 8mm;
+    margin-top: -5px;
+    z-index: 5;
+    left: 65mm;
+    opacity: 30%;}
+#lineUnderSkillDetail{
+    position: relative;
+    height: 0.001mm;
+    width: 90mm;
+    top: 15mm;
+    background-color: rgb(44, 43, 43);
+}
+#languages{
+    position: relative;
+    height: 15mm;
+    width: 90mm;
+    top: 165mm;
+    left: 20mm;
+    font-family: "Font1";
+    font-size: 32px;
+    text-align: center;
+    letter-spacing: 5px;
+}
+#lineUnderLanguages{
+    position: relative;
+    height: 0.001mm;
+    width: 90mm;
+    margin-left: 20mm;
+    top: 158mm;
+    background-color: rgb(44, 43, 43);
+}
+#languagesDetail{
+    position: relative;
+    height: 15mm;
+    width: 90mm;
+    top: 160mm;
+    left: 20mm;
+    font-family: "Font1";
+    font-size: 18px;
+}
+#lineUnderLanguagesDetail{
+    position: absolute;
+    height: 0.001mm;
+    width: 90mm;
+    top: 23mm;
+    background-color: rgb(44, 43, 43);
+}
+#references{
+    position: relative;
+    height: 15mm;
+    width: 90mm;
+    top: 173mm;
+    left: 20mm;
+    font-family: "Font1";
+    font-size: 32px;
+    text-align: center;
+    letter-spacing: 5px;
+}
+#lineUnderReferences{
+    position: relative;
+    height: 0.001mm;
+    width: 90mm;
+    top: 168mm;
+    margin-left: 20mm;
+    background-color: rgb(44, 43, 43);
+}
+#referencesDetail{
+    position: relative;
+    height: 15mm;
+    width: 90mm;
+    top: 170mm;
+    left: 20mm;
+    font-family: "Font1";
+    font-size: 18px;
+}
+#workExperience{
+    position: static;
+    height: 15mm;
+    width: 90mm;
+    margin-left: 160mm;
+    margin-top: -30mm;
+    font-family: "Font1";
+    font-size: 32px;
+    text-align: center;
+    letter-spacing: 5px;
+}
+#lineUnderWorkExperience{
+    position: relative;
+    height: 0.001mm;
+    width: 142mm;
+    left: 60mm;
+    margin-top: -8.2mm;
+    background-color: rgb(44, 43, 43);
+}
+#workExperienceDetail1{
+    position: relative;
+    height: 40mm;
+    width: 140mm;
+    margin-left: 137mm;
+    margin-top: 6.5mm;
+    font-family: "Font1";
+    font-size: 18px;
+    line-height: 3mm;
+}
+#workExperienceDetail2{
+    position: relative;
+    height: 35mm;
+    width: 140mm;
+    margin-left: 137mm;
+    margin-top: 6mm;
+    font-family: "Font1";
+    font-size: 18px;
+    line-height: 3mm;
+}
+#workExperienceDetail3{
+    position: relative;
+    height: 40mm;
+    width: 140mm;
+    margin-left: 137mm;
+    margin-top: 10mm;
+    font-family: "Font1";
+    font-size: 18px;
+    line-height: 3mm;
+}
+#lineUnderWorkExperienceDetail{
+    position: relative;
+    height: 0.001mm;
+    width: 142mm;
+    top: 6mm;
+    background-color: rgb(44, 43, 43);
+}
+#education{
+    position: static;
+    height: 15mm;
+    width: 90mm;
+    margin-left: 160mm;
+    margin-top: 15mm;
+    font-family: "Font1";
+    font-size: 32px;
+    text-align: center;
+    letter-spacing: 5px;
+}
+#lineUnderEducation{
+    position: relative;
+    height: 0.001mm;
+    width: 142mm;
+    left: 60mm;
+    margin-top: -6mm;
+    background-color: rgb(44, 43, 43);
+}
+#educationDetail1{
+    position: relative;
+    height: 20mm;
+    width: 140mm;
+    margin-left: 137mm;
+    margin-top: 6mm;
+    font-family: "Font1";
+    font-size: 18px;
+    line-height: 3mm;
+}
+#educationDetail2{
+    position: relative;
+    height: 20mm;
+    width: 140mm;
+    margin-left: 137mm;
+    margin-top: 6mm;
+    font-family: "Font1";
+    font-size: 18px;
+    line-height: 3mm;
+}
